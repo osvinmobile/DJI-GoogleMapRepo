@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dji.GSDemo.GoogleMap"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="com.dji.GSDemo.GoogleMap">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -25,9 +23,11 @@
     <uses-feature
         android:name="android.hardware.usb.accessory"
         android:required="true" />
+
     <uses-feature
         android:name="android.hardware.usb.host"
         android:required="false" />
+
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -41,15 +41,18 @@
         android:theme="@style/AppTheme">
 
         <!-- DJI SDK -->
-
         <uses-library android:name="com.android.future.usb.accessory" />
 
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="" /> //TODO: Enter your app key here
+            android:value="8f0dcbf192807b257869789a" />
+        //TODO: Enter your app key here
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="" /> //TODO: Enter your Google API Key here
+            android:value="AIzaSyC7LIiQRhDABQf7DHOB-7AxwjnbAqDe3ME" />
+        //TODO: Enter your Google API Key here
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -81,7 +84,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait"></activity>
 
     </application>

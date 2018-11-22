@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "975415084916",
+    "firebase_url": "https://trackyourfamily-218408.firebaseio.com",
+    "project_id": "trackyourfamily-218408",
+    "storage_bucket": "trackyourfamily-218408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975415084916:android:8d60a5875e9cec38",
+        "android_client_info": {
+          "package_name": "app.osvin.tyf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975415084916-3tr9epagues8buuc6r1el0lt4i7r911l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jfgzuSAtKy3elRaoezDLuZ9YdP8Lygg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975415084916:android:4b70d0198c2423ce",
+        "android_client_info": {
+          "package_name": "com.dji.GSDemo.GoogleMap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975415084916-3tr9epagues8buuc6r1el0lt4i7r911l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jfgzuSAtKy3elRaoezDLuZ9YdP8Lygg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
